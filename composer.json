@@ -1,0 +1,20 @@
+{
+    "name": "nex/test.dev.kviku",
+    "authors": [
+        {
+            "name": "nex",
+            "email": "noemail@noemail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/dotenv": "^7.1",
+        "ext-json": "*",
+        "halaxa/json-machine": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": ""
+        }
+    }
+}
